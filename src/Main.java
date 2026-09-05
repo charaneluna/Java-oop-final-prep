@@ -1,10 +1,16 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args){
-        User u = new User("Caleb", "Gold");
-        User u2 = new User();
-        u2.set_name("Eve");
+        Student s = new Student() ;
+        s.setVerified(true);
+        System.out.println(s.getVerified());
 
-        System.out.println(u);
-        System.out.println(u2);
+
+        /*User u = new User("Caleb", "Gold");
+        User u2 = new User("Sally","Platinum");
+
+        User.get_admins();*/
+        }
     }
-}
+
