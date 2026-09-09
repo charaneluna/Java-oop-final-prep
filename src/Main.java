@@ -6,7 +6,7 @@ public class Main {
         s.setVerified(true);
         System.out.println(s.getVerified());
 
-
+// anonymous class
         /*User u = new User("Caleb", "Gold");
         User u2 = new User("Sally","Platinum");
 
